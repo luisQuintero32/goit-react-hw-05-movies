@@ -1,4 +1,4 @@
-.light {
+/* .light {
   --background-color: #ffffff;
   --header-color: #ffffff;
   --blur: #ffffff;
@@ -37,7 +37,7 @@
   
   --film-rect:#ff6969;
   --ico-color:#ffffff;
-}
+} */
 .dark {
   --background-color: url(../images/backblue.jpg);
   --header-color: #212f49fd;

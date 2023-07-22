@@ -9,24 +9,17 @@ header{
 .header{
     width: 100%;
     height: 80px;
-    
     position: absolute;
-    
     display: flex;
-    
     align-items: center;
     justify-content: center;
-    
     top: 0;
-    
     
     list-style: none;
     text-decoration: none;
-    
     margin: 0 auto;
-    color: var(--text-color);
-    background-color: var(--header-color);
-    
+    color: #ffffff;
+    background-color: #030324;
     
     box-shadow: 0px 0px 30px -8px rgba(0, 0, 0, 0.432);
 }
@@ -36,30 +29,21 @@ header{
     
     width: 100%;
     height: 100%;
-    
     margin: 0 10%;
-    
     align-items: center;
     justify-content: space-between;
     
-    color: var(--text-color);
-    /* background-color: var(--header-color); */
-    
+    color: #fff;
 }
 
 .navpage{
-    
     display: flex;
     height: 100%;
     align-items: center;
-
-    gap: 10px;
-    
     font-size: 17px;
     font-weight: 400;
     
     gap: 4em;
-    
 }
 .rect{
     position: absolute;
@@ -87,19 +71,21 @@ header{
 
 .icorect{
     display: block;
-    fill: var(--film-rect);
+    fill: rgb(0, 7, 70);
+}
+.icorect:hover{
+    fill: #0004f3;
 }
 .icotext{
     display: block;
-
-    fill: var(--ico-color);
+    fill: #63ffff;
     position: absolute;
     z-index: 500;
 }
 .icone{
     position: absolute;
     z-index: 500;
-    fill: var(--ico-color);
+    fill: #63ffff;
 }
 
 .blur{
@@ -109,33 +95,25 @@ header{
     top: 0;
     height: 90px;
 
-    background-color: var(--blur);
+    background-color: #0213a3;
 }
 
-
-
 a{
-    color: var(--text-color-50);
+    color: #c0c9e0;
     transition: all 400ms;
 }
 a:hover{
-    color: var(--text-color);
+    color: #fff;
     transition: all 400ms;
-    font-weight: 500;
-    
+    font-weight: 500; 
 }
-
-
 
 @media screen and (max-width: 500px) {
     .icorect{
-        /* display: none; */
         fill: var(--film-rect);
     }
     .firstlayout{
         display: none;
-        /* position: absolute; */
-        /* transform: translate(-100%); */
     }
     .icotext{
         display:none;
@@ -154,13 +132,10 @@ a:hover{
 
 @media screen and (max-width: 768px) {
     .icorect{
-        /* display: none; */
         fill: var(--film-rect);
     }
     .firstlayout{
         display: none;
-        /* position: absolute; */
-        /* transform: translate(-100%); */
     }
     .icotext{
         display:none;

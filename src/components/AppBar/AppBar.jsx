@@ -1,6 +1,6 @@
 import s from './AppBar.module.css'
 import Navigation from './Navigation/Navigation';
-import Logo from './Logo/Logo';
+import Logo from './Logo';
 
 import Container from './BarContainer/Container'
 
@@ -12,7 +12,6 @@ export default function AppBar() {
             <div className={s.header_content}>
                 <Logo link={'/'} />
                 <div className={s.navpage}>
-                    <Dark/>
                     <Navigation link={'/'} title={'Home'} />
                     <Navigation link={'/movies'} title={'Movies'} />
                 </div>

@@ -16,10 +16,13 @@ function SearchInput(props) {
       event.preventDefault();
 
       if (searchQuery.trim() === '') {
-        setSearchQuery('');
+          //Setting searchQuery state '' in case query got spaces
+          setSearchQuery('');
 
-        return toast.info("Input your search query");
+          return toast.info("Input your search query");
       }
+
+      console.log('se ha almacenado su busqueda')
 
       props.onSubmit(searchQuery);
       

@@ -8,13 +8,20 @@ input{
 
     all: unset;
 }
+button{
+  background-color: #0022b9;
+}
 .inputSr{
     border-radius: 10px;
-    border: 2px solid var(--border-color);
+
+    border-bottom: 1px solid #0d5055;
     background-color: #ffffff00;
     width: auto;
     height: 40px;
     padding-left: 10px;
+}
+.inputSr:hover{
+    background-color: #ffffff11;
 }
 
 @media screen and (max-width: 500px) {

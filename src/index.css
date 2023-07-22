@@ -18,18 +18,11 @@
 
   
 }
-
-*{
-  
-}
 #root{
   width: 100%;
-  
-  
 }
 html{
   transition: all 100ms;
- 
 }
 body {
   display: flex;
@@ -80,5 +73,3 @@ button:focus-visible {
   transition: all 300ms;
   
 }
-
-
